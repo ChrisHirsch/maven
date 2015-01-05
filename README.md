@@ -13,7 +13,9 @@ This project is a Docker container for [Maven](http://maven.apache.org/). It's a
 
 	$ git clone https://github.com/zwi/maven.git
 	$ cd maven
-	$ docker build -t maven .
+	$ make
+           OR 
+        $ docker build -t maven .
 
 ## Using the container
 
