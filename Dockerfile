@@ -1,4 +1,6 @@
-FROM centos
+FROM centos:7
+MAINTAINER Chris Hirsch
+ENV REFRESHED_AT 2015-02-19
 
 # Bring in any needed repos
 RUN rpm -Uvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
